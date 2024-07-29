@@ -75,14 +75,10 @@ Sedangkan populasi High Customer A dan B cenderung rendah, namun memiliki potens
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0ce4431d-4f45-4597-99de-8011982d183f"/>
 </p>
-Berikut ini ditampilkan plot karakteristik mayoritas/rata-rata total transaksi, pengeluaran, pendapatan, recency, dan conversion rate berdasarkan clusternya. Terlihat pada grafik tersebut, bahwa dapat diketahui karakteristik dari tiap cluster berdasar pola transaksi pelanggan dan dapat dikelompokkan berdasarkan kategori berikut.<br><br>
-| Nama Cluster |                 Angka Transaksi dan Spending                |                  Pendapatan                 | _Conversion Rate_ |        Usia        |
-|:------------:|:-----------------------------------------------------------:|:-------------------------------------------:|:-----------------:|:------------------:|
-|   Cluster 0  |   Tertinggi, mayoritas 25 transaksi dan Rp.1.116.000/bulan  | Cukup tinggi, mayoritas Rp.65.215.000/tahun |     Sedang, 4%    | Mayoritas 60 tahun |
-|   Cluster 1  |  Terendah, mayoritas hanya 7 transaksi dan Rp.58.000/bulan  |   Terendah, mayoritas Rp.33.297.500/tahun   |    Terendah, 1%   | Mayoritas 50 tahun |
-|   Cluster 2  | Cukup tinggi, mayoritas 20 transaksi dan Rp.1.040.000/bulan |   Tertinggi, mayoritas Rp.71.488.000/tahun  |   Tertinggi, 8%   | Mayoritas 54 tahun |
-|   Cluster 3  |     Sedang, mayoritas 17 transaksi dan Rp.434.000/bulan     | Cukup sedang, mayoritas Rp.52.597.000/tahun |  Cukup sedang, 3% | Mayoritas 58 tahun |
-
+Berikut ini ditampilkan plot karakteristik mayoritas/rata-rata total transaksi, pengeluaran, pendapatan, recency, dan conversion rate berdasarkan clusternya. Terlihat pada grafik tersebut, bahwa dapat diketahui karakteristik dari tiap cluster berdasar pola transaksi pelanggan dan dapat dikelompokkan berdasarkan kategori berikut.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c50716e8-63c5-4cb1-8744-a4d51bf13b52"/>
+</p>
 Dari karakteriktik tersebut, dapat setiap cluster dapat dikelompok berdasarkan kategori, yaitu sebagai berikut.<br>
 | Nama Cluster |                 Jenis Kategori                 |   Nama Kategori   |
 |:------------:|:----------------------------------------------:|:-----------------:|
