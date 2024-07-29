@@ -1,4 +1,4 @@
-![3b  Hasil Clustering dengan K-means](https://github.com/user-attachments/assets/8210aa04-02b5-49b7-b73c-01f8274807c0)# Predict Customer Personality to Boost Marketing Campaign by Using Machine Learning
+# Predict Customer Personality to Boost Marketing Campaign by Using Machine Learning
 Project ini merupakan project yang bertujuan untuk melakukan pediksi perilaku pelanggan guna meningkatkan campaign marketing di suatu perusahaan. Project ini dibuat menggunakan bahasa pemrograman Python
 
 ## Daftar Isi
