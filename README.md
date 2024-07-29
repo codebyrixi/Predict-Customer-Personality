@@ -82,7 +82,7 @@ Berikut ini ditampilkan plot karakteristik mayoritas/rata-rata total transaksi, 
 |   Cluster 1  |  Terendah, mayoritas hanya 7 transaksi dan Rp.58.000/bulan  |   Terendah, mayoritas Rp.33.297.500/tahun   |    Terendah, 1%   | Mayoritas 50 tahun |
 |   Cluster 2  | Cukup tinggi, mayoritas 20 transaksi dan Rp.1.040.000/bulan |   Tertinggi, mayoritas Rp.71.488.000/tahun  |   Tertinggi, 8%   | Mayoritas 54 tahun |
 |   Cluster 3  |     Sedang, mayoritas 17 transaksi dan Rp.434.000/bulan     | Cukup sedang, mayoritas Rp.52.597.000/tahun |  Cukup sedang, 3% | Mayoritas 58 tahun |
-<p></p>
+<p>
 Dari karakteriktik tersebut, dapat setiap cluster dapat dikelompok berdasarkan kategori, yaitu sebagai berikut.
 | Nama Cluster |                 Jenis Kategori                 |   Nama Kategori   |
 |:------------:|:----------------------------------------------:|:-----------------:|
@@ -90,3 +90,4 @@ Dari karakteriktik tersebut, dapat setiap cluster dapat dikelompok berdasarkan k
 |   Cluster 1  |      _Low-Transaction Low-Spending Group_      |    Low Customer   |
 |   Cluster 2  |       _High-Income High-Conversion Group_      |  High Customer B  |
 |   Cluster 3  | _Moderate-Transaction Moderate-Spending Group_ | Moderate Customer |
+</p>
