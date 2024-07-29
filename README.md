@@ -20,7 +20,7 @@ Gambar diatas merupakan plot korelasi conversion rate dengan pendapatan, total p
 </p>
 Dapat dilihat pada plot regresi dengan pendapatan dan total pengeluaran berikut, bahwa adanya korelasi positif yang kuat antara pendapatan dan pengeluaran total, yang menunjukkan hubungan yang signifikan antara tingkat pendapatan dan pola pengeluaran; dengan demikian, semakin tinggi pendapatan seseorang, semakin besar kemungkinan mereka mengeluarkan lebih banyak uang. Dalam dunia bisnis, pemahaman seperti ini dapat membantu bisnis memahami segmen pelanggan yang memiliki potensi pembelian yang lebih besar dan membuat strategi pemasaran yang tepat untuk meningkatkan keterlibatan dan kepuasan pelanggan.
 
-## Bagian 2: Data Cleaning, Preprocessing, dan Feature Engineering
+## Bagian 2: Data Cleaning, Preprocessing
 Pada proses ini dilakukan pemrosesan data sekaligus pembersihan data, yang terdiri dari pemeriksaan null / missing value pada data, duplikasi data, tipe data dan konsistensi nilai, serta outlier atau data yang tidak biasa. Hasilnya tertera pada tabel dibawah.<br>
 | Asesmen Data      | Temuan                                                                                                   | Penyelesaian                            |
 |-------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------|
@@ -28,7 +28,9 @@ Pada proses ini dilakukan pemrosesan data sekaligus pembersihan data, yang terdi
 | Duplicate Values  | Tidak terdapat duplicate values                                                                          | -                                       |
 | Konsistensi Nilai | Tipe data `dt_customer` sebaiknya datetime                                                               | Mengubah tipe data nya menjadi datetime |
 | Nilai Anomali     | Keseluruhan fitur memiliki outlier. Terlihat juga fitur `income` dan `year_birth` memiliki nilai ekstrim | Handling outlier menggunakan IQR.       |
-<p>Selain itu pada tahapan ini, dilakukan pembuatan fitur baru berdasar fitur yang telah ada, bertujuan untuk membuat analisis menjadi lebih bermakna. Fitur baru ini dapat memberi informasi tambahan dengan menggabungkan beberapa fitur yang saling berhubungan untuk membentuk fitur yang lebih baik. Selengkapnya dapat dilihat pada tabel dibawah
+
+## Bagian 3: Feature Engineering
+Pada tahapan ini, dilakukan pembuatan fitur baru berdasar fitur yang telah ada, bertujuan untuk membuat analisis menjadi lebih bermakna. Fitur baru ini dapat memberi informasi tambahan dengan menggabungkan beberapa fitur yang saling berhubungan untuk membentuk fitur yang lebih baik. Selengkapnya dapat dilihat pada tabel dibawah<br>
 | Nama fitur baru         | Sumber                                                                        |
 |-------------------------|-------------------------------------------------------------------------------|
 | membership_duration     | 2023 - dt_customer                                                            |
@@ -38,7 +40,6 @@ Pada proses ini dilakukan pemrosesan data sekaligus pembersihan data, yang terdi
 | total_spending          | mntcoke + mntfruits + mntmeatproducts + mntfishproducts + mntsweet            |
 | total_accepted_campaign | acceptedcmp1 + acceptedcmp2 + acceptedcmp3 + acceptedcmp4 + acceptedcmp5      |
 | cvr                     | total_transaction x numwebvisitsmonth/100                                     |
-<p>
 ## Bagian 3: Data Modelling
 
 
