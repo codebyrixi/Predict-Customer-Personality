@@ -9,7 +9,44 @@ Project ini merupakan project yang bertujuan untuk melakukan pediksi perilaku pe
 - [Analisis Kepribadian Pelanggan Untuk Penargetan Ulang Pemasaran](https://github.com/codebyrixi/Predict-Customer-Personality/tree/main#bagian-5-analisis-kepribadian-pelanggan-untuk-penargetan-ulang-pemasaran)
 
 ## Bagian 0: Pendahuluan
+**Background**<br>
 Sebuah perusahaan dapat berkembang dengan pesat saat mengetahui customer personality nya, sehingga dapat memberikan layanan serta manfaat lebih baik kepada pelanggan yang berpotensi menjadi pelanggan yang loyal. Dengan mengolah data historis marketing campaign, dapat menaikkan performa dan menyasar pelanggan yang tepat agar dapat bertransaksi di platform perusahaan. Dari insight data tersebut, difokuskan membuat sebuah model prediksi kluster sehingga memudahkan perusahaan dalam membuat keputusan.
+
+**Goal**<br>
+Tujuan dari analisis profil dan perilaku pelanggan dengan pendekatan clustering adalah untuk memahami pelanggan dengan lebih baik, menyediakan layanan yang lebih personal, meningkatkan performa penjualan, dan membangun hubungan yang kuat dengan pelanggan. <br>
+
+**Objective**<br>
+- Membuat model mechine learning yang dapat mengelompokkan pelanggan ke segmen-segmen berbeda berdasar karakteristiknya.
+- Mengekstraksi _insight_ mendalam tentang profil dan perilaku pelanggan.
+- Menentukan strategi bisnis yang efektif dari hasil _clustering_.
+
+**Business Matric**: _Conversion Rate_
+
+**Deskripsi Fitur**<br>
+Feature | Descriptions
+--------|-------------
+`ID` | ID unik dari setiap pelanggan
+`Year_Birth` | Tahun kelahiran pelanggan
+`Complain` | Bernilai 1 jika pelanggan komplain dalam 2 tahun terakhir
+`Dt_Customer` | Tanggal pendaftaran pelanggan dengan perusahaan (gabung member)
+`Education` | Tingkat pendidikan pelanggan
+`Marital_Status` | Status pernikahan pelanggan
+`Kidhome` | Jumlah anak kecil dalam rumah tangga pelanggan
+`Teenhome` |  Jumlah remaja dalam rumah tangga pelanggan
+`Income` | Pendapatan rumah tangga pelanggan per tahun
+`MntFishProducts` | Jumlah yang dibelanjakan untuk produk ikan dalam 2 tahun terakhir
+`MntMeatProducts` | Jumlah yang dibelanjakan untuk produk daging dalam 2 tahun terakhir
+`MntFruits` | Jumlah yang dibelanjakan untuk produk buah-buahan dalam 2 tahun terakhir
+`MntSweetProducts` | Jumlah yang dibelanjakan untuk produk manis dalam 2 tahun terakhir
+`MntWines` | Jumlah yang dibelanjakan untuk produk anggur dalam 2 tahun terakhir
+`MntGoldProds` | Jumlah yang dibelanjakan untuk produk emas dalam 2 tahun terakhir
+`NumDealsPurchases` | Jumlah pembelian yang dilakukan dengan diskon
+`NumCatalogPurchases`| Jumlah pembelian dengan katalog (membeli barang yang akan dikirim melalui pos)
+`NumStorePurchases` | Jumlah pembelian langsung di toko
+`NumWebPurchases` | Jumlah pembelian melalui situs web perusahaan
+`NumWebVisitsMonth` | Jumlah kunjungan ke situs web perusahaan dalam sebulan terakhir
+`Recency` | Jumlah hari sejak pembelian terakhir
+`Response` | Bernilai 1 jika pelanggan menerima penawaran di kampanye terakhir, 0 jika tidak
 
 ## Bagian 1: Analisis Tingkat Konversi Berdasarkan Pendapatan, Pengeluaran dan Usia
 <p align="center">
