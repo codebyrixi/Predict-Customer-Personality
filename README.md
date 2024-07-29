@@ -32,7 +32,7 @@ Hasilnya tertera pada tabel dibawah.
 | _Null Values_      | Tidak terdapat _null values_                                                                               | -                                         |
 | _Duplicate Values_ | Tidak terdapat _duplicate values_                                                                          | -                                         |
 | Konsistensi Nilai  | Tipe data `dt_customer` sebaiknya _datetime_                                                               | Mengubah tipe data nya menjadi _datetime_ |
-| Nilai Anomali      | Keseluruhan fitur memiliki _outlier_. Terlihat juga fitur `income` dan `year_birth` memiliki nilai ekstrim | _Handling outlier_ menggunakan IQR        |<br>
+| Nilai Anomali      | Keseluruhan fitur memiliki _outlier_. Terlihat juga fitur `income` dan `year_birth` memiliki nilai ekstrim | _Handling outlier_ menggunakan IQR        |
 Selain itu pada tahapan ini, dilakukan pembuatan fitur baru berdasar fitur yang telah ada, bertujuan untuk membuat analisis menjadi lebih bermakna. Fitur baru ini dapat memberi informasi tambahan dengan menggabungkan beberapa fitur yang saling berhubungan untuk membentuk fitur yang lebih baik. Selengkapnya dapat dilihat pada tabel dibawah.
 
 
