@@ -13,11 +13,11 @@ Sebuah perusahaan dapat berkembang dengan pesat saat mengetahui customer persona
 ## Bagian 1: Analisis Tingkat Konversi Berdasarkan Pendapatan, Pengeluaran dan Usia
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0e57dd7d-d007-4cd5-bb4b-92210f600731"/>
-</p><br>
+</p>
 Gambar diatas merupakan plot korelasi conversion rate dengan pendapatan, total pengeluaran, serta usia. Hasil penelitian menunjukkan korelasi positif yang signifikan antara pendapatan dan total pengeluaran terhadap tingkat konversi. Ini menunjukkan bahwa semakin besar pendapatan dan pengeluaran total seseorang, semakin besar kemungkinan mereka akan melakukan pembelian.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/704d380f-b3a5-4795-9ced-f311ed78cd15"/>
-</p><br>
+</p>
 Dapat dilihat pada plot regresi dengan pendapatan dan total pengeluaran berikut, bahwa adanya korelasi positif yang kuat antara pendapatan dan pengeluaran total, yang menunjukkan hubungan yang signifikan antara tingkat pendapatan dan pola pengeluaran; dengan demikian, semakin tinggi pendapatan seseorang, semakin besar kemungkinan mereka mengeluarkan lebih banyak uang. Dalam dunia bisnis, pemahaman seperti ini dapat membantu bisnis memahami segmen pelanggan yang memiliki potensi pembelian yang lebih besar dan membuat strategi pemasaran yang tepat untuk meningkatkan keterlibatan dan kepuasan pelanggan.
 
 ## Bagian 2: Data Cleaning, Preprocessing, dan Feature Engineering
