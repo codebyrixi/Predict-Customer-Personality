@@ -1,4 +1,4 @@
-# Predict Customer Personality to Boost Marketing Campaign by Using Machine Learning
+![3b  Hasil Clustering dengan K-means](https://github.com/user-attachments/assets/8210aa04-02b5-49b7-b73c-01f8274807c0)# Predict Customer Personality to Boost Marketing Campaign by Using Machine Learning
 Project ini merupakan project yang bertujuan untuk melakukan pediksi perilaku pelanggan guna meningkatkan campaign marketing di suatu perusahaan. Project ini dibuat menggunakan bahasa pemrograman Python
 
 ## Daftar Isi
@@ -47,6 +47,14 @@ Setelah mempersiapkan data, selanjutnya dilakukan pre-processing pada data, yait
 2. Melakukan encoding pada fitur kategorikal akan agar dapat diolah oleh machine learning.
 3. Melakukan standardisasi fitur untuk memastikan skala data seragam dan menghindari bias dalam model.
 <p>Setelah dilakukannya pre-processing pada data, tahap berikutnya adalah penggunaan metode Principal Component Analysis (PCA) yang berfungsi mengurangi dimensi data dengan mempertahankan informasi penting. Mereka dapat mengatasi masalah multikolinearitas antar fitur dan mengoptimalkan kinerja model dengan mengurangi dimensi data. Menentukan jumlah cluster terbaik juga merupakan langkah penting dalam proses ini. Analisis ini memilih jumlah cluster yang ideal dengan menggunakan Distortion Score dan Elbow Method. Jumlah cluster terbaik yang ditemukan berdasarkan hasil analisis adalah 4.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/288c8a0e-6207-4a9e-8c60-32210d2b637f"/>
+</p>
+Dapat dilihat pada plot _distortion score_ diatas, bahwa jumlah cluster terbaik yang ditemukan berdasarkan hasil analisis adalah 4 dengan skor 4864.63. Algoritma K-means digunakan untuk mengelompokkan data setelah menentukan jumlah cluster yang ideal sebelumnya. Algoritma ini mengelompokkan data berdasarkan kesamaan fitur, memungkinkan untuk mengidentifikasi pola atau kelompok yang ada dalam data dan memahami karakteristik setiap cluster.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/070968e2-93ec-4750-b562-70f96869b85e"/>
+</p>
+Gambar diatas merupakan hasil _clustering_ dengan menggunakan _K-Means_, dimana plot tersebut menunjukkan bahwa cluster-cluster terbentuk dengan baik dan mengelompokkan data ke dalam beberapa kelompok berbeda. Ini menunjukkan bahwa algoritma clustering berhasil membedakan dan menggolongkan data berdasarkan ciri-cirinya.
 
 
 ## Bagian 5: Analisis Kepribadian Pelanggan Untuk Retargeting Pemasaran
