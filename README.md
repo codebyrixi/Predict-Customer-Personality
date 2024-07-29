@@ -57,7 +57,7 @@ Dapat dilihat pada plot <i>distortion score</i> diatas, bahwa jumlah cluster ter
 Gambar diatas merupakan hasil <i>clustering</i> dengan menggunakan <i>K-Means</i>, dimana plot tersebut menunjukkan bahwa cluster-cluster terbentuk dengan baik dan mengelompokkan data ke dalam beberapa kelompok berbeda. Ini menunjukkan bahwa algoritma clustering berhasil membedakan dan menggolongkan data berdasarkan ciri-cirinya.<br>
 Selanjutnya dilakukan tahap evaluasi hasil model. Dengan menggunakan metode Silhouette Score, diberikan rekomendasi bahwa jumlah cluster terbaik adalah 4.
 <p align="center">
-  <img src="[https://github.com/user-attachments/assets/070968e2-93ec-4750-b562-70f96869b85e](https://github.com/user-attachments/assets/c5357727-4f5b-49e1-9898-e42b4f99487e)"/>
+  <img src="https://github.com/user-attachments/assets/c5357727-4f5b-49e1-9898-e42b4f99487e"/>
 </p>
 Hal tersebut didasarkan pada fakta bahwa nilai Silhouette Score tertinggi pada jumlah cluster tersebut, yaitu 0,535. Nilai ini merupakan metrik yang menunjukkan seberapa baik objek dalam satu cluster berada dalam kumpulan data mereka sendiri dibandingkan dengan objek dalam cluster lain. Semakin tinggi nilai Silhouette Score, semakin baik cluster-cluster tersebut terpisah.
 
