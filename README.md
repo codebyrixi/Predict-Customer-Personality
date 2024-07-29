@@ -50,11 +50,10 @@ Setelah mempersiapkan data, selanjutnya dilakukan pre-processing pada data, yait
 <p align="center">
   <img src="https://github.com/user-attachments/assets/288c8a0e-6207-4a9e-8c60-32210d2b637f"/>
 </p>
-Dapat dilihat pada plot _distortion score_ diatas, bahwa jumlah cluster terbaik yang ditemukan berdasarkan hasil analisis adalah 4 dengan skor 4864.63. Algoritma K-means digunakan untuk mengelompokkan data setelah menentukan jumlah cluster yang ideal sebelumnya. Algoritma ini mengelompokkan data berdasarkan kesamaan fitur, memungkinkan untuk mengidentifikasi pola atau kelompok yang ada dalam data dan memahami karakteristik setiap cluster.
+Dapat dilihat pada plot <i>distortion score</i> diatas, bahwa jumlah cluster terbaik yang ditemukan berdasarkan hasil analisis adalah 4 dengan skor 4864.63. Algoritma K-means digunakan untuk mengelompokkan data setelah menentukan jumlah cluster yang ideal sebelumnya. Algoritma ini mengelompokkan data berdasarkan kesamaan fitur, memungkinkan untuk mengidentifikasi pola atau kelompok yang ada dalam data dan memahami karakteristik setiap cluster.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/070968e2-93ec-4750-b562-70f96869b85e"/>
 </p>
-Gambar diatas merupakan hasil _clustering_ dengan menggunakan _K-Means_, dimana plot tersebut menunjukkan bahwa cluster-cluster terbentuk dengan baik dan mengelompokkan data ke dalam beberapa kelompok berbeda. Ini menunjukkan bahwa algoritma clustering berhasil membedakan dan menggolongkan data berdasarkan ciri-cirinya.
-
+Gambar diatas merupakan hasil <i>clustering</i> dengan menggunakan <i>K-Means</i>, dimana plot tersebut menunjukkan bahwa cluster-cluster terbentuk dengan baik dan mengelompokkan data ke dalam beberapa kelompok berbeda. Ini menunjukkan bahwa algoritma clustering berhasil membedakan dan menggolongkan data berdasarkan ciri-cirinya.
 
 ## Bagian 5: Analisis Kepribadian Pelanggan Untuk Retargeting Pemasaran
