@@ -2,11 +2,11 @@
 Project ini merupakan project yang bertujuan untuk melakukan pediksi perilaku pelanggan guna meningkatkan campaign marketing di suatu perusahaan. Project ini dibuat menggunakan bahasa pemrograman Python
 
 ## Daftar Isi
-- Analisis Tingkat Konversi Berdasarkan Pendapatan, Pengeluaran dan Usia
-- Data Cleaning and Preprocessing
-- Feature Engineering
-- Data Modelling
-- Analisis Kepribadian Pelanggan Untuk Penargetan Ulang Pemasaran
+- [Analisis Tingkat Konversi Berdasarkan Pendapatan, Pengeluaran dan Usia](https://github.com/codebyrixi/Predict-Customer-Personality/tree/main#bagian-1-analisis-tingkat-konversi-berdasarkan-pendapatan-pengeluaran-dan-usia)
+- [Data Cleaning and Preprocessing](https://github.com/codebyrixi/Predict-Customer-Personality/tree/main#bagian-2-data-cleaning-preprocessing)
+- [Feature Engineering](https://github.com/codebyrixi/Predict-Customer-Personality/tree/main#bagian-3-feature-engineering)
+- [Data Modelling](https://github.com/codebyrixi/Predict-Customer-Personality/tree/main#bagian-4-data-modelling)
+- [Analisis Kepribadian Pelanggan Untuk Penargetan Ulang Pemasaran](https://github.com/codebyrixi/Predict-Customer-Personality/tree/main#bagian-5-analisis-kepribadian-pelanggan-untuk-penargetan-ulang-pemasaran)
 
 ## Bagian 0: Pendahuluan
 Sebuah perusahaan dapat berkembang dengan pesat saat mengetahui customer personality nya, sehingga dapat memberikan layanan serta manfaat lebih baik kepada pelanggan yang berpotensi menjadi pelanggan yang loyal. Dengan mengolah data historis marketing campaign, dapat menaikkan performa dan menyasar pelanggan yang tepat agar dapat bertransaksi di platform perusahaan. Dari insight data tersebut, difokuskan membuat sebuah model prediksi kluster sehingga memudahkan perusahaan dalam membuat keputusan.
