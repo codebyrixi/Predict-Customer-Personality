@@ -80,9 +80,6 @@ Berikut ini ditampilkan plot karakteristik mayoritas/rata-rata total transaksi, 
   <img src="https://github.com/user-attachments/assets/c50716e8-63c5-4cb1-8744-a4d51bf13b52"/>
 </p>
 Dari karakteriktik tersebut, dapat setiap cluster dapat dikelompok berdasarkan kategori, yaitu sebagai berikut.
-| Nama Cluster |                 Jenis Kategori                 |   Nama Kategori   |
-|:------------:|:----------------------------------------------:|:-----------------:|
-|   Cluster 0  |     _High-Transaction High-Spending Group_     |  High Customer A  |
-|   Cluster 1  |      _Low-Transaction Low-Spending Group_      |    Low Customer   |
-|   Cluster 2  |       _High-Income High-Conversion Group_      |  High Customer B  |
-|   Cluster 3  | _Moderate-Transaction Moderate-Spending Group_ | Moderate Customer |
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/681fe238-8c86-4674-bbd3-83084f1d3336"/>
+</p>
