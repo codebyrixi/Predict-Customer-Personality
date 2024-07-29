@@ -34,15 +34,7 @@ Hasilnya tertera pada tabel dibawah.
 | Konsistensi Nilai  | Tipe data `dt_customer` sebaiknya _datetime_                                                               | Mengubah tipe data nya menjadi _datetime_ |
 | Nilai Anomali      | Keseluruhan fitur memiliki _outlier_. Terlihat juga fitur `income` dan `year_birth` memiliki nilai ekstrim | _Handling outlier_ menggunakan IQR        |<br>
 Selain itu pada tahapan ini, dilakukan pembuatan fitur baru berdasar fitur yang telah ada, bertujuan untuk membuat analisis menjadi lebih bermakna. Fitur baru ini dapat memberi informasi tambahan dengan menggabungkan beberapa fitur yang saling berhubungan untuk membentuk fitur yang lebih baik. Selengkapnya dapat dilihat pada tabel dibawah.
-| Nama fitur baru         | Sumber                                                                        |
-|-------------------------|-------------------------------------------------------------------------------|
-| membership_duration     | 2023 - dt_customer                                                            |
-| age_categories          | age                                                                           |
-| total_children          | kidhome + teenhome                                                            |
-| total_transaction       | numdealspurchases + numwebpurchases + numcatalogpurchases + numstorepurchases |
-| total_spending          | mntcoke + mntfruits + mntmeatproducts + mntfishproducts + mntsweet            |
-| total_accepted_campaign | acceptedcmp1 + acceptedcmp2 + acceptedcmp3 + acceptedcmp4 + acceptedcmp5      |
-| cvr                     | total_transaction x numwebvisitsmonth/100                                     |
+
 
 ## Bagian 3: Data Modelling
 
