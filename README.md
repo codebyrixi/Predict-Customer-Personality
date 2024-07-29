@@ -79,7 +79,7 @@ Berikut ini ditampilkan plot karakteristik mayoritas/rata-rata total transaksi, 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c50716e8-63c5-4cb1-8744-a4d51bf13b52"/>
 </p>
-Dari karakteriktik tersebut, dapat setiap cluster dapat dikelompok berdasarkan kategori, yaitu sebagai berikut.<br>
+Dari karakteriktik tersebut, dapat setiap cluster dapat dikelompok berdasarkan kategori, yaitu sebagai berikut.
 | Nama Cluster |                 Jenis Kategori                 |   Nama Kategori   |
 |:------------:|:----------------------------------------------:|:-----------------:|
 |   Cluster 0  |     _High-Transaction High-Spending Group_     |  High Customer A  |
