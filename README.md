@@ -75,7 +75,7 @@ Sedangkan populasi High Customer A dan B cenderung rendah, namun memiliki potens
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0ce4431d-4f45-4597-99de-8011982d183f"/>
 </p>
-Berikut ini ditampilkan plot karakteristik mayoritas/rata-rata total transaksi, pengeluaran, pendapatan, recency, dan conversion rate berdasarkan clusternya. Terlihat pada grafik tersebut, bahwa dapat diketahui karakteristik dari tiap cluster berdasar pola transaksi pelanggan dan dapat dikelompokkan berdasarkan kategori berikut.
+Berikut ini ditampilkan plot karakteristik mayoritas/rata-rata total transaksi, pengeluaran, pendapatan, recency, dan conversion rate berdasarkan clusternya. Terlihat pada grafik tersebut, bahwa dapat diketahui karakteristik dari tiap cluster berdasar pola transaksi pelanggan dan dapat dikelompokkan berdasarkan kategori berikut.<br>
 | Nama Cluster |                 Angka Transaksi dan Spending                |                  Pendapatan                 | _Conversion Rate_ |        Usia        |
 |:------------:|:-----------------------------------------------------------:|:-------------------------------------------:|:-----------------:|:------------------:|
 |   Cluster 0  |   Tertinggi, mayoritas 25 transaksi dan Rp.1.116.000/bulan  | Cukup tinggi, mayoritas Rp.65.215.000/tahun |     Sedang, 4%    | Mayoritas 60 tahun |
