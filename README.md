@@ -26,7 +26,7 @@ Pada proses ini dilakukan pemrosesan data sekaligus pembersihan data, yang terdi
 2. Pemeriksaan duplikasi data
 3. Pemeriksaan tipe data dan konsistensi nilai
 4. Pemeriksaan outlier atau data yang tidak biasa<br>
-Hasilnya tertera pada tabel dibawah.
+Hasilnya tertera pada tabel dibawah.<br>
 | Asesmen Data       | Temuan                                                                                                     | Penyelesaian                              |
 |--------------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------|
 | _Null Values_      | Tidak terdapat _null values_                                                                               | -                                         |
