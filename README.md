@@ -28,7 +28,7 @@ Pada proses ini dilakukan pemrosesan data sekaligus pembersihan data, yang terdi
 | Duplicate Values  | Tidak terdapat duplicate values                                                                          | -                                       |
 | Konsistensi Nilai | Tipe data `dt_customer` sebaiknya datetime                                                               | Mengubah tipe data nya menjadi datetime |
 | Nilai Anomali     | Keseluruhan fitur memiliki outlier. Terlihat juga fitur `income` dan `year_birth` memiliki nilai ekstrim | Handling outlier menggunakan IQR.       |
-<p>Selain itu pada tahapan ini, dilakukan pembuatan fitur baru berdasar fitur yang telah ada, bertujuan untuk membuat analisis menjadi lebih bermakna. Fitur baru ini dapat memberi informasi tambahan dengan menggabungkan beberapa fitur yang saling berhubungan untuk membentuk fitur yang lebih baik. Selengkapnya dapat dilihat pada tabel dibawah.
+<p>Selain itu pada tahapan ini, dilakukan pembuatan fitur baru berdasar fitur yang telah ada, bertujuan untuk membuat analisis menjadi lebih bermakna. Fitur baru ini dapat memberi informasi tambahan dengan menggabungkan beberapa fitur yang saling berhubungan untuk membentuk fitur yang lebih baik. Selengkapnya dapat dilihat pada tabel dibawah.<br>
 | Nama fitur baru         | Sumber                                                                        |
 |-------------------------|-------------------------------------------------------------------------------|
 | membership_duration     | 2023 - dt_customer                                                            |
