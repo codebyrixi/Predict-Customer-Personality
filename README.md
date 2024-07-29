@@ -3,7 +3,8 @@ Project ini merupakan project yang bertujuan untuk melakukan pediksi perilaku pe
 
 ## Daftar Isi
 - Analisis Tingkat Konversi Berdasarkan Pendapatan, Pengeluaran dan Usia
-- Data Cleaning, Preprocessing, dan Feature Engineering
+- Data Cleaning and Preprocessing
+- Feature Engineering
 - Data Modelling
 - Analisis Kepribadian Pelanggan Untuk Penargetan Ulang Pemasaran
 
@@ -62,3 +63,13 @@ Selanjutnya dilakukan tahap evaluasi hasil model. Dengan menggunakan metode Silh
 Hal tersebut didasarkan pada fakta bahwa nilai Silhouette Score tertinggi pada jumlah cluster tersebut, yaitu 0,535. Nilai ini merupakan metrik yang menunjukkan seberapa baik objek dalam satu cluster berada dalam kumpulan data mereka sendiri dibandingkan dengan objek dalam cluster lain. Semakin tinggi nilai Silhouette Score, semakin baik cluster-cluster tersebut terpisah.
 
 ## Bagian 5: Analisis Kepribadian Pelanggan Untuk Penargetan Ulang Pemasaran
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ade9ace0-8265-4972-a8aa-be6a2aa9efcc"/>
+</p>
+Menurut plot korelasi antara pendapatan dan total pengeluaran, terlihat bahwa terbentuk kelompok yang dapat dibedakan. Dalam kasus ini, cluster 0 dan 3 cenderung berada dalam satu kelompok, yang menunjukkan adanya persamaan dan perbedaan karakteristik di antara mereka. Ketika dua cluster berada dalam satu kelompok, itu menunjukkan bahwa pola pendapatan dan pengeluaran anggota cluster tersebut serupa atau terkait. Tingkat pendapatan dan pengeluaran kedua cluster mungkin sebanding, atau mereka mungkin memiliki tren yang sama.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a80a75ee-df9a-4ff4-9e97-5e95291a45be"/>
+</p>
+Berdasarkan plot persentase ppulasi cluster diatas, ditemukan bahwa sekitar 50% dari populasi termasuk dalam kelompok Low Customer. Meskipun kelompok ini memiliki angka transaksi dan pengeluaran yang rendah, namun karena populasi mereka yang besar, perusahaan dapat fokus untuk menarik perhatian mereka.<br>
+Sedangkan populasi High Customer A dan B cenderung rendah, namun memiliki potensi transaksi, spending, konversi, dan income yang tinggi. Perusahaan dapat mempertimbangkan strategi pemasaran yang lebih personal dan eksklusif untuk menarik minat mereka.
+
