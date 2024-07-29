@@ -45,8 +45,8 @@ Pada tahapan ini, dilakukan pembuatan fitur baru berdasar fitur yang telah ada, 
 Setelah mempersiapkan data, selanjutnya dilakukan pre-processing pada data, yaitu:
 1. Menghapus fitur yang tidak diperlukan untuk model agar data lebih terfokus.
 2. Melakukan encoding pada fitur kategorikal akan agar dapat diolah oleh machine learning.
-3. Melakukan standardisasi fitur untuk memastikan skala data seragam dan menghindari bias dalam model.<br><br>
-Setelah dilakukannya pre-processing pada data, tahap berikutnya adalah penggunaan metode Principal Component Analysis (PCA) yang berfungsi mengurangi dimensi data dengan mempertahankan informasi penting. Mereka dapat mengatasi masalah multikolinearitas antar fitur dan mengoptimalkan kinerja model dengan mengurangi dimensi data. Menentukan jumlah cluster terbaik juga merupakan langkah penting dalam proses ini. Analisis ini memilih jumlah cluster yang ideal dengan menggunakan Distortion Score dan Elbow Method. Jumlah cluster terbaik yang ditemukan berdasarkan hasil analisis adalah 4.
+3. Melakukan standardisasi fitur untuk memastikan skala data seragam dan menghindari bias dalam model.
+<p>Setelah dilakukannya pre-processing pada data, tahap berikutnya adalah penggunaan metode Principal Component Analysis (PCA) yang berfungsi mengurangi dimensi data dengan mempertahankan informasi penting. Mereka dapat mengatasi masalah multikolinearitas antar fitur dan mengoptimalkan kinerja model dengan mengurangi dimensi data. Menentukan jumlah cluster terbaik juga merupakan langkah penting dalam proses ini. Analisis ini memilih jumlah cluster yang ideal dengan menggunakan Distortion Score dan Elbow Method. Jumlah cluster terbaik yang ditemukan berdasarkan hasil analisis adalah 4.
 
 
 ## Bagian 5: Analisis Kepribadian Pelanggan Untuk Retargeting Pemasaran
