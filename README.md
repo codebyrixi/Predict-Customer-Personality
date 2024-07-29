@@ -21,12 +21,7 @@ Gambar diatas merupakan plot korelasi conversion rate dengan pendapatan, total p
 Dapat dilihat pada plot regresi dengan pendapatan dan total pengeluaran berikut, bahwa adanya korelasi positif yang kuat antara pendapatan dan pengeluaran total, yang menunjukkan hubungan yang signifikan antara tingkat pendapatan dan pola pengeluaran; dengan demikian, semakin tinggi pendapatan seseorang, semakin besar kemungkinan mereka mengeluarkan lebih banyak uang. Dalam dunia bisnis, pemahaman seperti ini dapat membantu bisnis memahami segmen pelanggan yang memiliki potensi pembelian yang lebih besar dan membuat strategi pemasaran yang tepat untuk meningkatkan keterlibatan dan kepuasan pelanggan.
 
 ## Bagian 2: Data Cleaning, Preprocessing, dan Feature Engineering
-Pada proses ini dilakukan pemrosesan data sekaligus pembersihan data, yang terdiri dari:
-1. Pemeriksaan null / missing value pada data
-2. Pemeriksaan duplikasi data
-3. Pemeriksaan tipe data dan konsistensi nilai
-4. Pemeriksaan outlier atau data yang tidak biasa<br>
-Hasilnya tertera pada tabel dibawah.<br>
+Pada proses ini dilakukan pemrosesan data sekaligus pembersihan data, yang terdiri dari pemeriksaan null / missing value pada data, duplikasi data, tipe data dan konsistensi nilai, serta outlier atau data yang tidak biasa. Hasilnya tertera pada tabel dibawah.<br>
 | Asesmen Data      | Temuan                                                                                                   | Penyelesaian                            |
 |-------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------|
 | Null Values       | Tidak terdapat null values                                                                               | -                                       |
